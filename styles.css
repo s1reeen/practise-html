@@ -1,0 +1,88 @@
+:root {
+    --secondary-color: #2E2F42;
+    --secondary-text-color: #ffffff
+}
+
+ body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+ ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
+ .title {
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .main-title {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+  }
+
+  .main-text {
+
+  }
+
+  /*header*/
+  .header-list-link {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .header-contacts {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /*hero*/
+
+  .hero {
+    background-color: var(--secondary-color);
+  }
+
+  .hero-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 56px;
+    font-weight: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-button {
+    color: var(--secondary-text-color);
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+
+/*portfolio*/
+
+  .our-portfolio-list-elem {
+    border-top: 0px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+  }
+
+  
