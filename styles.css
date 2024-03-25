@@ -32,10 +32,6 @@
     letter-spacing: 0.02em;
   }
 
-  .main-text {
-
-  }
-
   /*header*/
   .header-list-link {
     color: var(--secondary-color);
@@ -85,4 +81,7 @@
     border-left: 1px solid #E7E9FC;
   }
 
-  
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
